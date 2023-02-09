@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <simpleshipping>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>HimaMage\SimpleShipping\Model\Carrier\Shipping</model>
+                <name>HimaMage Simple Shipping</name>
+                <price>10.00</price>
+                <title>HimaMage Simple Shipping</title>
+                <specificerrmsg>This method no applicable</specificerrmsg>
+                <handling_type>F</handling_type>
+            </simpleshipping>
+        </carriers>
+    </default>
+</config>
